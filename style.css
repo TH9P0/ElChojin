@@ -14,7 +14,6 @@ body{
     display: inline;
     padding: 0.5em;
     vertical-align: middle;
-    
 }
 
 nav{
@@ -188,4 +187,19 @@ td{
 .conciencia_social p{
     padding: 1em 0;
     text-align: justify;
+}
+
+@media screen and (max-width:480px){
+    body{
+        width: auto;
+        font-size: medium;
+    }
+
+    .caja{
+        position: static;
+    }
+
+    .caja li{
+        display: inline-flex;
+    }
 }
