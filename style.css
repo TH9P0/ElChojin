@@ -189,6 +189,12 @@ td{
     text-align: justify;
 }
 
+.videoMusical{
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*Responsive*/
 @media screen and (max-width:480px){
     body{
         width: auto;
