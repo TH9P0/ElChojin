@@ -1,0 +1,191 @@
+/*Seccion de Header y Footer presente en todas las paginas*/
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.caja{
+    background: #000080;
+    padding: 0.5em;
+    position: relative;
+    font-size: 30px;
+}
+
+.caja li{
+    display: inline;
+    padding: 0.5em;
+    vertical-align: middle;
+    
+}
+
+nav{
+    text-align: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none
+}
+
+nav a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+nav a:active{
+    color: palegoldenrod;
+}
+
+.logoHome{
+    width: 8%;
+}
+
+footer{
+    text-align: center;
+    background: url(Imagenes/bg.jpg);
+    padding: 30px;
+}
+
+footer p{
+    color: white;
+    width: 940px;
+    margin: 0 auto;
+}
+
+hr{
+    background-color: red;
+    width: 80%;
+    height: 2.5px;
+    border: red;
+}
+
+.titulo{
+    padding: 1em;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+em{
+    font-style: italic;
+}
+
+strong{
+    font-weight: bold;
+}
+
+/*Codigo correspondiente al Index*/
+.banner{
+    width: 100%;
+}
+
+main{
+    font-size: 20px;
+}
+
+.presentacion{
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.presentacion p, .media p{
+    padding: 1em 0;
+}
+
+.inicios{
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.anime{
+    width: 25%;
+    float: right;
+}
+
+.media{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.media p{
+    text-align: center;
+}
+
+
+/*Codigo correspondiente a guinness.html*/
+.guinness{
+    background: linear-gradient(#F6F6F6 70%, #282828);
+}
+
+.descripcion{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.imagen-record{
+    width: 100%;
+}
+
+.descripcion p{
+    padding: 1em;
+}
+
+.video{
+    text-align: center;
+    padding: 20px;
+}
+
+.cancion{
+    padding: 20px;
+    text-align: center;
+}
+
+.cancion p{
+    padding: 1em;
+}
+
+/*Codigo correspondiente a la Biografia y discografia*/
+.biografia{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.biografia p{
+    text-align: justify;
+    padding: 0.5em;
+}
+
+table{
+    margin: 40px 40px;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+
+.albums{
+    width: 300px;
+    height: 300px;
+}
+
+td{
+    vertical-align: middle;
+}
+
+/*Parte correspondiente al codigo de conciencia social*/
+.conciencia_social{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.conciencia_social p{
+    padding: 1em 0;
+    text-align: justify;
+}
