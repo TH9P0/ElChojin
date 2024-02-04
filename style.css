@@ -196,9 +196,12 @@ td{
 
 /*Responsive*/
 @media screen and (max-width:480px){
+    html{
+        font-size: 25px;
+    }
+
     body{
         width: auto;
-        font-size: medium;
     }
 
     .caja{
@@ -207,5 +210,9 @@ td{
 
     .caja li{
         display: inline-flex;
+    }
+
+    .videoMusical{
+        width: 100%;
     }
 }
